@@ -107,6 +107,9 @@ export default function Login({
         >
           Sign Up
         </button>
+        <p>
+          <a href="/auth/reset-password">Forgot Password?</a>
+        </p>
         {searchParams?.message && (
           <p className="mt-4 p-4 bg-foreground/10 text-foreground text-center">
             {searchParams.message}

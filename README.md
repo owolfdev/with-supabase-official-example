@@ -2,6 +2,27 @@ https://supabase.com/docs/guides/getting-started/quickstarts/nextjs
 
 npx create-next-app -e with-supabase
 
+## Set up urls for callback:
+
+https://supabase.com/dashboard/project/knuvewyushhgzjzjwxzw/auth/url-configuration
+
+--
+
+### Site URL
+
+Configure the default redirect URL used when a redirect URL is not specified or doesn't match one from the allow list. This value is also exposed as a template variable in the email templates section. Wildcards cannot be used here.
+
+https://with-supabase-official-example.vercel.app
+
+### Redirect URLs
+
+URLs that auth providers are permitted to redirect to post authentication. Wildcards are allowed, for example, https://\*.domain.com
+
+http://localhost:3000
+https://with-supabase-official-example.vercel.app
+
+--
+
 <a href="https://demo-nextjs-with-supabase.vercel.app/">
   <img alt="Next.js and Supabase Starter Kit - the fastest way to build apps with Next.js and Supabase" src="https://demo-nextjs-with-supabase.vercel.app/opengraph-image.png">
   <h1 align="center">Next.js and Supabase Starter Kit</h1>
